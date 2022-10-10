@@ -3,6 +3,7 @@ $rhap_background-color: #fff !default;
 $rhap_bar-color: #dddddd !default;
 $rhap_time-color: #333 !default;
 $rhap_font-family: inherit !default;
+$personal_color: #FACD66 !default;
 
 .rhap_container {
   box-sizing: border-box;
@@ -111,7 +112,7 @@ $rhap_font-family: inherit !default;
   height: 100%;
   position: absolute;
   z-index: 2;
-  background-color: $rhap_theme-color;
+  background-color: $personal_color;
   border-radius: 2px;
 }
 
@@ -135,7 +136,7 @@ $rhap_font-family: inherit !default;
   height: 20px;
   margin-left: -10px;
   top: -8px;
-  background: $rhap_theme-color;
+  background: $personal_color;
   border-radius: 50px;
   box-shadow: rgba($rhap_theme-color, .5) 0 0 5px;
 }
@@ -236,7 +237,7 @@ $rhap_font-family: inherit !default;
   margin-left: -6px;
   left: 0;
   top: -4px;
-  background: $rhap_theme-color;
+  background: $personal_color;
   opacity: 0.9;
   border-radius: 50px;
   box-shadow: rgba($rhap_theme-color, .5) 0 0 3px;
