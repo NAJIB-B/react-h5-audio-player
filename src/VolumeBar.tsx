@@ -189,6 +189,7 @@ class VolumeControls extends Component<VolumeControlsProps, VolumeControlsState>
             style={{ left: currentVolumePos, transitionDuration: hasVolumeAnimation ? '.1s' : '0s' }}
           />
           {showFilledVolume && <div className="rhap_volume-filled" style={{ width: currentVolumePos }} />}
+          
         </div>
       </div>
     )
